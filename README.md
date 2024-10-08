@@ -1,11 +1,12 @@
 # SteelOakPhotography
 Steel Oak Photography specializes in nature and wedding photography. 
 
-**Technologies**
+**Technologies**:
+
 In this project, I wanted to push my knowledge of JS, so I was able to handle interactivity, iamges, and smooth scrolling.
 
 
-**Features**
+**Features**:
 
 Responsive Design: Adapts across all device sizes (mobile, tablet, desktop).
 
@@ -19,7 +20,7 @@ Back to Top Button: A floating button that appears after scrolling down, allowin
 
 
 
-**Optimizations**
+**Optimizations**:
 
 Image Optimization: Compress images further for quicker load times without compromising quality.
 
