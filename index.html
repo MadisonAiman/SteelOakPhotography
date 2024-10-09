@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steel Oak Photography</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky Header with only Contact link -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Gallery Section with Masonry Layout -->
+  <main>
+    <section id="gallery">
+      <h1>Steel Oak Photography</h1>
+      <!--<p>Capturing the beauty of nature with a subtle and timeless touch.</p> -->
+      <div class="gallery">
+       
+      </div>
+    </section>
+  </main>
+  <div class="gallery">
+        <img data-src="Sunset.jpg" loading="lazy" alt="Rainbow Sunset">
+        <img data-src="king.jpg" loading="lazy" alt="Montana Mountains">
+        <img data-src="river.jpg" loading="lazy" alt="Trees">
+        <img data-src="riverbelow.jpg" loading="lazy" alt="River">
+       <!-- <img data-src="wyoming.jpg" loading="lazy" alt="Wyoming Aspen Trees"> -->
+       <!-- <img data-src="flowers.jpg" loading="lazy" alt="wedding flowers">
+        <img src="wedding.jpg" loading="lazy" alt="wedding venue"> -->
+  </div>
+
+  <!-- Back to Top Button -->
+<button id="backToTop" style="display: none;">Top</button>
+
+
+  <!-- Footer and Contact Section -->
+  <footer>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Located in Great Falls, Montana. For weddings, nature, or other photography:</p>
+      <a href="https://github.com/MadisonAiman">Contact us via email</a>
+    </section>
+    <p>© 2024 Steel Oak Photography. All rights reserved.</p>
+  </footer>
+
+  <!-- Add this at the end of the body -->
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+  
+
+</body>
+<script src="main.js"></script>
+</html>
+
+
+
